@@ -19,5 +19,5 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   nil
-  directors = [{:name "Georges" :value }]
+  directors = [{:name "Georges" :value=> 1234567890}]
 end
