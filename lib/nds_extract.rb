@@ -32,5 +32,11 @@ def directors_totals(nds)
      inner_index = 0
      while inner_index < iner_len 
      do 
-       
+       grand_total += vm[row_index][column_index][inner_index][:price]
+      inner_index += 1
+    end
+    column_index += 1
+  end
+  row_index += 1
 end
+p grand_total
